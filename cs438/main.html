@@ -1,0 +1,137 @@
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <link rel="icon" href="photo\logo.jpg">
+  <title>home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous"
+  referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <nav>
+        <a href="#" class="logo"> <img src="photo\logo.jpg" alt=""> </a>
+        <ul class="nav-menu">
+          <li> <a href="#home" class="nav-link"><h3>الرئيسية</h3></a> </li>
+          <li> <a href="about.html" class="nav-link"><h3>اعرف اكثر عنا</h3></a> </li>
+          <li> <a href="#playgrounds" class="nav-link"><h3>الملاعب</h3></a> </li>
+        </ul>
+
+        
+      </nav>
+    </div>
+  </header>
+
+
+  <section class="home" id="home">
+    <div class="head_container">
+      <div class="box">
+        <div class="text">
+          
+          <p> احجز ملعبك معنا </p>
+
+
+          <br></br>
+          <br></br>
+
+
+          <a href="http://localhost/gg/pro10/login.php">
+            <button id="bot">login</button>
+          </a>
+
+
+        </div>
+      </div>
+      <div class="image">
+        <img src="photo\test1.jpg" class="slide">
+      </div>
+      <div class="image_item">
+        <img src="photo\test1.jpg" alt="" class="slide active" onclick="img('photo/test1.jpg')">
+        <img src="photo\bol32.jpg" alt="" class="slide" onclick="img('photo/bol32.jpg')">
+        <img src="photo\badl1.jpg" alt="" class="slide" onclick="img('photo/badl1.jpg')">
+
+      </div>
+    </div>
+  </section>
+  <section class="book">
+    <div class="container flex">
+        <center><div class="input grid">
+            <div class="box">
+                <label>DAY</label>
+                <input type="date" placeholder="">
+            </div>
+            <div class="box">
+                <label>check-in
+                    <input type="time" placeholder=""></label>
+            </div>
+            <div class="box">
+                <label>check-out</label>
+                <input type="time">
+            </div>
+        </div></center>
+        <div class="search">
+            <input type="submit" value="SEARCH">
+        </div>
+    </div>
+  </section>
+
+
+  <script src="project.js"></script>
+
+  
+  <footer>
+    <div class="container grid top">
+      <div class="box">
+
+        <p>Accepted payment methods</p>
+        <div class="payment grid">
+          <img src="https://img.icons8.com/color/48/000000/visa.png" />
+          <img src="https://img.icons8.com/color/48/000000/mastercard.png" />
+          <img src="https://img.icons8.com/color-glass/48/000000/paypal.png" />
+        </div>
+      </div>
+
+      <div class="box">
+        <ul>
+          <li></li>
+        </ul>
+      </div>
+
+      <div class="box2">
+        <center><h2>اعرف اكثر</h2></center>
+        <div class="con">
+        <ul>
+          <li>خدمة العملاء</li>
+          <li>الرعاء</li>
+          <li>شروط الاستخدام</li>
+        </ul>
+        </div>
+      </div>
+
+      <div class="box">
+      <h2>تابعنا هنا</h2>
+      <div class="sco">
+        <ul>
+          <li></li>
+          <li><a href="https://www.instagram.com/"><img src="photo/instgram.png"></a></li>
+          <li><a href="https://wa.me/966555298887"><img src="photo/whatsapp.png"></a></li>
+          <li><a href="https://facebook.com"><img src="photo/face.png"></a></li>
+        </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

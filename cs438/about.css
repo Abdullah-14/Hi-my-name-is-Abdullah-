@@ -1,0 +1,142 @@
+
+/*-----------body------------*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.about{
+    width: 100%;
+    padding: 78px 0px;
+
+}
+body{
+
+    background-image: url('photo/ground.png');
+
+    background-position-x: 20px ;
+    background-size: 100%;
+
+}
+.about-text {
+    text-align: center;
+    width: 500px;
+}
+.about-text h1{
+    font-size: 50px;
+}
+.about-text h3{
+    font-size: 30px;
+}
+.about-text h5{
+    font-size: 20px;
+}
+.us{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about img{
+    height: 450px;
+    width: 450px;
+}
+
+/*------------body--------*/
+
+
+/*------------header--------*/
+
+header {
+    background-color: rgba(187, 187, 187, 0.6);
+    padding-bottom: 130px;
+    height: 8vh;
+  }
+  .nav-menu{
+    padding-right: 130px;
+  }
+  
+  .logo img {
+    margin-left: 50px;
+    width: 100px;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+  }
+  
+  header ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header ul li {
+    margin-left: 3rem;
+  }
+  
+  header ul li a {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+  }
+  
+  header ul li a:hover {
+    color: #ffffff;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    header ul {
+      display: block;
+      position: fixed;
+      left: -100%;
+      top: 5rem;
+      flex-direction: column;
+      background-color: #fff;
+      width: 100%;
+      border-radius: 10px;
+      text-align: center;
+      transition: 0.5s;
+      box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+      z-index: 20;
+    }
+  
+    header ul.active {
+      left: 0%;
+    }
+  
+    header ul li {
+      margin: 2.5rem 0;
+    }
+  
+    header ul li a {
+      color: black;
+    }
+  
+    .hambuger {
+      display: block;
+      cursor: pointer;
+    }
+  
+    .hambuger.active .bar:nth-child(2) {
+      opacity: 0;
+    }
+  
+    .hambuger.active .bar:nth-child(1) {
+      transform: translateY(8px) rotate(45deg);
+    }
+  
+    .hambuger.active .bar:nth-child(3) {
+      transform: translateY(-8px) rotate(-45deg);
+    }
+  }
+/*-----------------header-----------*/
+
+
+  
